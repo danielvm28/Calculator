@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="872.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainController">
+   <children>
+      <Label layoutX="87.0" layoutY="41.0" text="History">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="historyTA" layoutX="25.0" layoutY="92.0" prefHeight="343.0" prefWidth="210.0">
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font></TextArea>
+      <Separator layoutX="248.0" layoutY="7.0" orientation="VERTICAL" prefHeight="482.0" prefWidth="9.0" />
+      <TextField fx:id="operationsTF" alignment="CENTER" layoutX="282.0" layoutY="25.0" prefHeight="60.0" prefWidth="546.0">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font></TextField>
+      <TextField fx:id="resultsTF" layoutX="605.0" layoutY="399.0" prefHeight="60.0" prefWidth="225.0">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font></TextField>
+      <Button fx:id="button0" layoutX="384.0" layoutY="389.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="0" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button1" layoutX="282.0" layoutY="300.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="1" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="384.0" layoutY="300.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="2" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="485.0" layoutY="300.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="3" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="282.0" layoutY="212.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="4" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="384.0" layoutY="212.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="5" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="485.0" layoutY="212.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="6" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="282.0" layoutY="121.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="7" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="384.0" layoutY="121.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="8" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="485.0" layoutY="121.0" mnemonicParsing="false" onAction="#press" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #489bea;" text="9" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="plusBTN" layoutX="603.0" layoutY="131.0" mnemonicParsing="false" onAction="#press" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #2a5490;" text="+" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteBTN" layoutX="728.0" layoutY="131.0" mnemonicParsing="false" onAction="#delete" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #ff2929;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="minusBTN" layoutX="603.0" layoutY="217.0" mnemonicParsing="false" onAction="#press" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #2a5490;" text="-" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="multBTN" layoutX="728.0" layoutY="217.0" mnemonicParsing="false" onAction="#press" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #2a5490;" text="x" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="resultBTN" layoutX="603.0" layoutY="310.0" mnemonicParsing="false" onAction="#calculate" prefHeight="60.0" prefWidth="225.0" style="-fx-background-color: #2a5490;" text="=" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="clearHistoryBTN" layoutX="80.0" layoutY="446.0" mnemonicParsing="false" onAction="#clearHistory" style="-fx-background-color: #ff2929;" text="Clear History" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
